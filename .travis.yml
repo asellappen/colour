@@ -1,4 +1,7 @@
 sudo: false
 language: go
+arch:
+  - ppc64le
+  - amd64
 install: go get -t -v ./...
 go: 1.2
